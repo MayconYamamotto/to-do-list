@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header / navbar */
+header,
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  padding: 16px 0;
+  border-bottom: 1px solid #dedede;
+}
+
+.navbar {
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.nav-item {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  flex: 0 1 728px;
+  min-width: 0px;
+}
+/* input */
+.form-control {
+  padding: 10px 14px;
+  font: 400 16px "Roboto", sans-serif;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* input-search */
+.icon-search {
+  position: absolute;
+  left: 14px;
+}
+
+.search-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-search {
+  padding-left: 38px;
+}
+
+/* Main */
+main {
+  padding: 0 24px;
+}
+
+/* Ordinal list and title*/
+.breadcrumb {
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+ol {
+  display: flex;
+  gap: 8px;
+}
+
+.breadcrumb-item {
+  font: 500 14px "Space Grotesk", sans-serif;
+  color: #c7cad1;
+}
+
+.title-kanban {
+  color: #706f6f;
+  font: 500 48px "Space Grotesk", sans-serif;
+}
+
+/* kanban */
+.kb-swimlane {
+  display: flex;
+  flex-direction: column;
+}
+
+.kb-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+.kb-column {
+  background-color: #f5f8f7;
+  border-radius: 8px;
+  padding: 26px 20px;
+}
+
+.kb-header {
+  margin-bottom: 26px;
+}
+
+.kb-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kb-tag {
+  padding: 6px 8px;
+  color: #48bf84;
+  background: #e4f2eb;
+  border-radius: 8px;
+  font: 500 20px "Space Grotesk", sans-serif;
+}
+
+.kb-title {
+  font: 500 32px "Space Grotesk", sans-serif;
+  color: #606a76;
+}
+
+/* button */
+.btn {
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-add {
+  background: #dbefe6;
+  transition: 0.15s;
+}
+
+.btn-add:hover {
+  background: #c1e7d5;
+}
+
+/* Utilities */
+.w-full {
+  width: 100%;
+}
+
+.my-16 {
+  margin: 16px 0;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}

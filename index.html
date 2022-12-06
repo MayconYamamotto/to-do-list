@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-item">
+          <img src="./assets/img/todo-logo.svg" alt="Logo TO-DO" class="logo" />
+        </div>
+
+        <div class="nav-item">
+          <div class="search-group">
+            <img
+              src="./assets/img/search-icon.svg"
+              alt="icon search"
+              class="icon-search"
+            />
+            <input
+              type="search"
+              placeholder="Search item..."
+              class="form-control input-search w-full"
+            />
+          </div>
+        </div>
+
+        <div class="nav-item"></div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="my-16">
+        <nav class="breadcrumb">
+          <ol>
+            <li class="breadcrumb-item">Dashboard</li>
+            <li style="color: #b6b6b6">></li>
+            <li class="breadcrumb-item">To do List</li>
+          </ol>
+        </nav>
+        <h1 class="title-kanban">Projects</h1>
+      </div>
+
+      <div class="kb-swimlane">
+        <ul class="kb-columns">
+          <li class="kb-column">
+            <div class="kb-header">
+              <div class="kb-status mb-16">
+                <h1 class="kb-title">To do</h1>
+                <span class="kb-tag kb-tag-success">1</span>
+              </div>
+
+              <button type="submit" class="btn btn-add w-full">
+                <img src="./assets/img/plus.svg" alt="icon plus" />
+              </button>
+            </div>
+            <div class="kb-card">card</div>
+          </li>
+          <li class="kb-column">
+            <div class="kb-header">
+              <div class="kb-status mb-16">
+                <h1 class="kb-title">In progress</h1>
+                <span class="kb-tag kb-tag-success">1</span>
+              </div>
+
+              <button type="submit" class="btn btn-add w-full">
+                <img src="./assets/img/plus.svg" alt="icon plus" />
+              </button>
+            </div>
+            <div class="kb-card">card</div>
+          </li>
+          <li class="kb-column">
+            <div class="kb-header">
+              <div class="kb-status mb-16">
+                <h1 class="kb-title">Completed</h1>
+                <span class="kb-tag kb-tag-success">1</span>
+              </div>
+
+              <button type="submit" class="btn btn-add w-full">
+                <img src="./assets/img/plus.svg" alt="icon plus" />
+              </button>
+            </div>
+            <div class="kb-card">card</div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
