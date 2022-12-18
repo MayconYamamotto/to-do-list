@@ -60,29 +60,33 @@
                 <span class="kb-tag kb-tag-success">1</span>
               </div>
 
-              <button type="submit" class="btn btn-add w-full">
+              <button
+                type="submit"
+                class="btn btn-add w-full"
+                onclick="addTask()"
+              >
                 <img src="./assets/img/plus.svg" alt="icon plus" />
               </button>
             </div>
 
-            <div class="kb-card">
-              <div class="kb-card-header">
-                <h1 class="kb-card-title">Title item</h1>
-                <button type="submit" class="btn">
-                  <img src="./assets/img/remove.svg" alt="Delete card">
-                </button>
-              </div>
+            <div class="kb-cards" id="kb-todo">
+              <div class="kb-card">
+                <div class="kb-card-header">
+                  <h1 class="kb-card-title">Title item</h1>
+                  <button type="submit" class="btn">
+                    <img src="./assets/img/remove.svg" alt="Delete card" />
+                  </button>
+                </div>
 
-              <p class="kb-card-description">
-                description
-              </p>
+                <p class="kb-card-description">description</p>
+              </div>
             </div>
           </li>
 
           <li class="kb-column">
             <div class="kb-header">
               <div class="kb-status mb-16">
-                <h1 class="kb-title">In progress</h1>
+                <h1 class="kb-title">Doing</h1>
                 <span class="kb-tag kb-tag-success">1</span>
               </div>
 
@@ -91,24 +95,24 @@
               </button>
             </div>
 
-            <div class="kb-card">
-              <div class="kb-card-header">
-                <h1 class="kb-card-title">Title item</h1>
-                <button type="submit" class="btn">
-                  <img src="./assets/img/remove.svg" alt="Delete card">
-                </button>
-              </div>
+            <div class="kb-cards" id="kb-doing">
+              <div class="kb-card">
+                <div class="kb-card-header">
+                  <h1 class="kb-card-title">Title item</h1>
+                  <button type="submit" class="btn">
+                    <img src="./assets/img/remove.svg" alt="Delete card" />
+                  </button>
+                </div>
 
-              <p class="kb-card-description">
-                description
-              </p>
+                <p class="kb-card-description">description</p>
+              </div>
             </div>
           </li>
 
           <li class="kb-column">
             <div class="kb-header">
               <div class="kb-status mb-16">
-                <h1 class="kb-title">Completed</h1>
+                <h1 class="kb-title">Done</h1>
                 <span class="kb-tag kb-tag-success">1</span>
               </div>
 
@@ -117,17 +121,17 @@
               </button>
             </div>
 
-            <div class="kb-card">
-              <div class="kb-card-header">
-                <h1 class="kb-card-title">Title item</h1>
-                <button type="submit" class="btn">
-                  <img src="./assets/img/remove.svg" alt="Delete card">
-                </button>
-              </div>
+            <div class="kb-cards" id="kb-done">
+              <div class="kb-card">
+                <div class="kb-card-header">
+                  <h1 class="kb-card-title">Title item</h1>
+                  <button type="submit" class="btn">
+                    <img src="./assets/img/remove.svg" alt="Delete card" />
+                  </button>
+                </div>
 
-              <p class="kb-card-description">
-                description
-              </p>
+                <p class="kb-card-description">description</p>
+              </div>
             </div>
           </li>
         </ul>

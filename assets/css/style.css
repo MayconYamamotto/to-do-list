@@ -132,6 +132,12 @@ ol {
 }
 
 /* kb-card */
+.kb-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .kb-card {
   background: #fff;
   border-radius: 8px;
