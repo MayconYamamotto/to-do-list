@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }

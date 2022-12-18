@@ -63,7 +63,6 @@
               <button
                 type="submit"
                 class="btn btn-add w-full"
-                onclick="addTask()"
               >
                 <img src="./assets/img/plus.svg" alt="icon plus" />
               </button>
@@ -73,7 +72,7 @@
               <div class="kb-card">
                 <div class="kb-card-header">
                   <h1 class="kb-card-title">Title item</h1>
-                  <button type="submit" class="btn">
+                  <button type="submit" class="btn delete-card">
                     <img src="./assets/img/remove.svg" alt="Delete card" />
                   </button>
                 </div>
@@ -90,16 +89,19 @@
                 <span class="kb-tag kb-tag-success">1</span>
               </div>
 
-              <button type="submit" class="btn btn-add w-full">
+              <button
+                type="submit"
+                class="btn btn-add w-full"
+              >
                 <img src="./assets/img/plus.svg" alt="icon plus" />
               </button>
             </div>
 
-            <div class="kb-cards" id="kb-doing">
+            <div class="kb-cards" id="kb-todo">
               <div class="kb-card">
                 <div class="kb-card-header">
                   <h1 class="kb-card-title">Title item</h1>
-                  <button type="submit" class="btn">
+                  <button type="submit" class="btn delete-card">
                     <img src="./assets/img/remove.svg" alt="Delete card" />
                   </button>
                 </div>
@@ -116,16 +118,19 @@
                 <span class="kb-tag kb-tag-success">1</span>
               </div>
 
-              <button type="submit" class="btn btn-add w-full">
+              <button
+                type="submit"
+                class="btn btn-add w-full"
+              >
                 <img src="./assets/img/plus.svg" alt="icon plus" />
               </button>
             </div>
 
-            <div class="kb-cards" id="kb-done">
+            <div class="kb-cards" id="kb-todo">
               <div class="kb-card">
                 <div class="kb-card-header">
                   <h1 class="kb-card-title">Title item</h1>
-                  <button type="submit" class="btn">
+                  <button type="submit" class="btn delete-card">
                     <img src="./assets/img/remove.svg" alt="Delete card" />
                   </button>
                 </div>
@@ -134,6 +139,7 @@
               </div>
             </div>
           </li>
+
         </ul>
       </div>
     </main>
