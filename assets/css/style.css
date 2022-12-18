@@ -131,6 +131,32 @@ ol {
   color: #606a76;
 }
 
+/* kb-card */
+.kb-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 16px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.kb-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kb-card-title {
+  color: #454545;
+  font: 500 24px "Space Grotesk", sans-serif;
+}
+
+.kb-card-description {
+  margin-top: 16px;
+  color: #606a76;
+  font: 400 16px "Roboto", sans-serif;
+}
+
 /* button */
 .btn {
   outline: none;
@@ -140,6 +166,7 @@ ol {
   padding: 12px;
   cursor: pointer;
   border-radius: 6px;
+  background: transparent;
 }
 
 .btn-add {
